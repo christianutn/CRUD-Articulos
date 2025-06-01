@@ -1,6 +1,6 @@
 # API CRUD de Artículos - Flexxus (Prueba Técnica)
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js) ![Express.js](https://img.shields.io/badge/Express.js-4.x-lightgrey?style=for-the-badge&logo=express) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript) ![JWT](https://img.shields.io/badge/JWT-Auth-purple?style=for-the-badge&logo=jsonwebtokens) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DB-blue?style=for-the-badge&logo=postgresql) <!-- O la BD que hayas usado -->
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js) ![Express.js](https://img.shields.io/badge/Express.js-4.x-lightgrey?style=for-the-badge&logo=express) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript) ![JWT](https://img.shields.io/badge/JWT-Auth-purple?style=for-the-badge&logo=jsonwebtokens) ![Sequelize](https://img.shields.io/badge/Sequelize-ORM-blue?style=for-the-badge&logo=sequelize) ![SQLite](https://img.shields.io/badge/SQLite-DB-blue?style=for-the-badge&logo=sqlite)
 
 Este repositorio contiene el desarrollo de una API RESTful como parte de una prueba técnica. La API gestiona un CRUD de artículos, cumpliendo con especificaciones de funcionalidad, seguridad, validación y buenas prácticas de desarrollo.
 
