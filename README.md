@@ -27,12 +27,12 @@ La API implementa operaciones CRUD completas (Crear, Leer, Actualizar, Eliminar)
 
 Este proyecto fue desarrollado siguiendo las siguientes pautas y mejores prácticas:
 
-*   🧱 **Arquitectura Adecuada:** Se ha diseñado una arquitectura en capas (controladores, servicios/modelos, rutas) para promover la modularidad, escalabilidad y mantenibilidad.
+*   🧱 **Arquitectura Adecuada:** Se ha diseñado una arquitectura en capas (controladores, modelos, rutas) para promover la modularidad, escalabilidad y mantenibilidad.
 *   🛡️ **Seguridad en las Rutas:** Implementación de autenticación JWT para proteger los endpoints. Se utiliza `passport` y `passport-jwt`.
 *   🔑 **Limitación de Intentos de Login:** Para prevenir ataques de fuerza bruta en el endpoint de login.
-*   📋 **Validación de Datos:** Se realizan validaciones tanto en los datos de entrada (request body, query params) como en los datos de salida (respuestas) para asegurar la integridad y consistencia. (Menciona la librería si usaste alguna, ej: `express-validator`, `joi`, `zod`).
+*   📋 **Validación de Datos:** Se realizan validaciones tanto en los datos de entrada (request body, query params) como en los datos de salida (respuestas) para asegurar la integridad y consistencia. 
 *   🧼 **Código Limpio y Estructurado:** El código está escrito en TypeScript, siguiendo principios de código limpio, con una estructura clara y comentarios donde es necesario para facilitar su comprensión y mantenimiento.
-*   💾 **Conexión a Base de Datos:** Se utiliza PostgreSQL (o la base de datos que hayas implementado) con un ORM/ODM (ej: Sequelize, TypeORM, Prisma, o conexión directa) para la persistencia de datos.
+*   💾 **Conexión a Base de Datos:** Se utiliza Sqlite con un ORM (Sequelize) para la persistencia de datos.
 *   📄 **Documentación del API:** La documentación completa y detallada de la API, incluyendo todos los endpoints, parámetros, ejemplos de solicitud y respuesta, está disponible a través de Postman.
     *   **[Ver Documentación de la API en Postman](https://documenter.getpostman.com/view/27002974/2sB2qgeeGa#b2e20146-ebc3-40fb-865a-555492708a6e)** 
 *   🚀 **Control de Versiones:** Todo el código fuente y la configuración se encuentran versionados en este repositorio de GitHub.
